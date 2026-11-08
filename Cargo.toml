@@ -1,17 +1,10 @@
 [package]
-name = "sigmaos-desklet-manager"
+name = "sigmaos_desklet_manager"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Project"]
-description = "Desklet manager"
-license = "GPL-3.0-or-later"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-desklet-manager"
-readme = "README.md"
-keywords = ["desklet", "manager", "widgets"]
-categories = ["gui"]
+license = "MIT"
+description = "SigmaOS desklet-manager component inspired by Linux Mint / Omarchy / Arch Linux."
 
-[dependencies]
-sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel", package = "sigmaos_kernel" }
-
-[profile.release]
-opt-level = 3
+[lib]
+name = "sigmaos_desklet_manager"
+path = "src/lib.rs"
