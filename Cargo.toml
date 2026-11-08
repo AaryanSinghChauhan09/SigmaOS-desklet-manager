@@ -11,7 +11,7 @@ keywords = ["desklet", "manager", "widgets"]
 categories = ["gui"]
 
 [dependencies]
-sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel", package = "sigmaos_kernel" }
 
 [profile.release]
 opt-level = 3
