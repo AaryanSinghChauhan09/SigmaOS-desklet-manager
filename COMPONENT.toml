@@ -3,12 +3,12 @@ name = "SigmaOS-desklet-manager"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "desklet-manager component"
+description = "SigmaOS desklet manager for desktop widgets and applets"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
